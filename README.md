@@ -3,3 +3,5 @@ In progress reimplementation of my "Reaction Time Tester" program on bare hardwa
 
 # Plans
 The final implementation is going to use an external button for input, some LEDs to indicate the state, and an I2C output to a 1602 LCD. One complication is that I don't have a typical I2C to 1602 display module, so I will be implementing my own with an Arduino Pro Micro.
+
+Not 100% on all the details but I would like to be able create a simple release bin so that anyone can build this and flash their device easily.
