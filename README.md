@@ -1,3 +1,5 @@
+# Notice: This project is wip and entirely non-functional right now
+
 # Reaction Time Tester: Hardware
 In progress reimplementation of my "Reaction Time Tester" program on bare hardware (Probably going to use an ESP32). Right now I am using the original RTT to create the skeleton of the firmware.
 
