@@ -34,9 +34,9 @@ typedef struct {
     // Game Options
     int averaging_trials;
     int total_trials;
-    unsigned int min_delay;
-    unsigned int max_delay;
-    unsigned int early_reset_delay;
+    uint32_t min_delay;
+    uint32_t max_delay;
+    uint32_t early_reset_delay;
 } Configuration;
 
 // Program State and Data
@@ -196,6 +196,19 @@ void HandleEarlyClick() {
     SetTimer(TIMER_EARLY, config.early_reset_delay); // Early state eventually resets back to Ready state regardless of user input
 }
 
+
+
+
+
+
+// Not entirely clear how I want to implement this, will be much easier once I get the pro-micro i2c receiver implemented
+SendStringI2C() { // Take string pointer and send via I2C. Popular/standard ways to do this? Maybe it is included in common libs
+
+}
+
+
+
+// TIMER FUNCTIONS: Probably need to do this in a HW specific way
 void SetTimer() { // Just supply timer name and time
     
 }
